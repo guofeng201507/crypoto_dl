@@ -50,7 +50,7 @@ def line_plot(line1, line2, label1=None, label2=None, title='', lw=2):
     ax.plot(line2, label=label2, linewidth=lw)
     ax.set_ylabel('price [USD]', fontsize=14)
     ax.set_title(title, fontsize=16)
-    ax.legend(loc='best', fontsize=16);
+    ax.legend(loc='best', fontsize=16)
     plt.savefig(f'{title}.png')
 
 
